@@ -8,11 +8,12 @@ NAT_application.ipynb: a jupyter notebook, containing the demo code for Nyakatok
 network_Na_panel.dta: an example dataset, Nyakatoke network data (please cite De Weerdt (2004) if you want to use this dataset).
 
 estimation.py: contains the main function: NTU_est(data, y_name, X_name, plot_alpha=True). 
+
 Inputs:
-data: Users need to prepare a network panel data, in which each row represents a dyad (so N=n(n-1)/2 rows, n is the number of nodes in the network). The network panel data should be sorted.
-y_name: the variable name for the undirected link.
-X_name: the variable names for the covariates.
-plot_alpha: if = True, the function will plot the histogram of estimated heterogeneities alpha_hat; if = False, will not plot.
+1. data: Users need to prepare a network panel data, in which each row represents a dyad (so N=n(n-1)/2 rows, n is the number of nodes in the network). The network panel data should be sorted.
+2. y_name: the variable name for the undirected link.
+3. X_name: the variable names for the covariates.
+4. plot_alpha: if = True, the function will plot the histogram of estimated heterogeneities alpha_hat; if = False, will not plot.
 
 Returns:
 1. a table for bagging coefficients estimates, including point estimators, standard deviations, p-values and 95% confidence intervals.
