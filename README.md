@@ -24,5 +24,5 @@ functions.py: contains some functions used in the estimation and inference proce
 ### Citation
 Please cite
 "Estimation and Inference in Dyadic Network Formation Models with Nontransferable Utilities" 2024, working paper, by Ming Li, Zhentao Shi and Yapeng Zheng
-if you are willing to use our data.
+if you are willing to use our codes, Thank you!
 
