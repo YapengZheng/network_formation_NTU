@@ -9,6 +9,7 @@ This repository provides a demonstration of estimating network formation models 
 To explore the Nyakatoke network application, please run the NAT_application.ipynb notebook.
 
 **Dataset**: network_Na_panel.dta
+
 **Citation**: If you use this dataset, please cite:
 De Weerdt, J. (2004). *Risk-Sharing and Endogenous Network Formation*.
 
