@@ -1,29 +1,34 @@
-# network_formation_NTU
-## A demo for estimating network formation models with non-transferable utilities.
+# 
 
-This is a demo code for applying bagging estimator for network formation models with nontransferable utilities and individual fixed effects.
+## Overview
 
-### files in /demo_for_application
-NAT_application.ipynb: a jupyter notebook, containing the demo code for Nyakatoke network in our paper.
-network_Na_panel.dta: an example dataset, Nyakatoke network data (please cite De Weerdt (2004) if you want to use this dataset).
+This repository provides a demonstration of estimating network formation models with non-transferable utilities (NTU) and individual fixed effects, using a bagging estimator. The code is designed for two empirical applications: the Nyakatoke network and the India microfinance network.
 
-estimation.py: contains the main function: NTU_est(data, y_name, X_name, plot_alpha=True). 
+## Empirical Applications
 
-Inputs:
-1. data: Users need to prepare a network panel data, in which each row represents a dyad (so N=n(n-1)/2 rows, n is the number of nodes in the network). The network panel data should be sorted.
-2. y_name: the variable name for the undirected link.
-3. X_name: the variable names for the covariates.
-4. plot_alpha: if = True, the function will plot the histogram of estimated heterogeneities alpha_hat; if = False, will not plot.
+### 1. Nyakatoke Network
 
-Returns:
-1. a table for bagging coefficients estimates, including point estimators, standard deviations, p-values and 95% confidence intervals.
-2. a table for plug-in average partial effects, including point estimators, standard deviations, p-values and 95% confidence intervals.
-3. an array for estimated fixed effects.
+To explore the Nyakatoke network application, please run the NAT_application.ipynb notebook.
 
-functions.py: contains some functions used in the estimation and inference process.
+**Dataset**: network_Na_panel.dta
+**Citation**: If you use this dataset, please cite:
+De Weerdt, J. (2004). *Risk-Sharing and Endogenous Network Formation*.
 
-### Citation
-Please cite
-"Estimation and Inference in Dyadic Network Formation Models with Nontransferable Utilities" 2024, working paper, by Ming Li, Zhentao Shi and Yapeng Zheng
-if you are willing to use our codes, Thank you!
+### 2. India Microfinance Network
 
+To explore the India microfinance network application, please run the India_micro_finance_application.ipynb notebook.
+
+**Datasets**:
+
+- India_covariates_wave2.dta
+- India_networks_wave2.mat
+
+**Citation**: If you use this dataset, please cite:
+Banerjee, A., Chandrasekhar, A. G., Duflo, E., & Jackson, M. O. (2013). *The Diffusion of Microfinance*.
+
+## Citation
+
+If you use the code in this repository, please cite:
+Li, M., Shi, Z., & Zheng, Y. (2025). *Bagging the Network*. Working paper.
+
+## 
