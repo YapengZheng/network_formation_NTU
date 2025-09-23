@@ -23,7 +23,7 @@ To explore the India microfinance network application, please run the India_micr
 - India_networks_wave2.mat
 
 **Citation**: If you use this dataset, please cite:
-Banerjee, A., Chandrasekhar, A. G., Duflo, E., & Jackson, M. O. (2013). *The Diffusion of Microfinance*.
+Banerjee, A., Chandrasekhar, A. G., Duflo, E., & Jackson, M. O. (2013). *Diffusion of Microfinance*.
 
 ## Citation
 
