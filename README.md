@@ -28,4 +28,4 @@ Banerjee, A., Chandrasekhar, A. G., Duflo, E., & Jackson, M. O. (2013). *Diffusi
 ## Citation
 
 If you use the code in this repository, please cite:
-Li, M., Shi, Z., & Zheng, Y. (2025). *Bagging the Network*. Working paper.
+Li, M., Shi, Z., & Zheng, Y. (2025). *Bagging the Network*. Working paper. [arXiv](https://arxiv.org/abs/2410.23852)
