@@ -1,6 +1,6 @@
 ## Overview
 
-This repository provides a demonstration of estimating network formation models with non-transferable utilities (NTU) and individual fixed effects, using a bagging estimator. The codes are designed for replications of two empirical applications in our working paper: the Nyakatoke network and the India microfinance network. Numerical results may differ slightly across computers from those reported in the paper, owing to variations in operating systems.
+This repository provides a demonstration of estimating network formation models with individual fixed effects, using a bagging estimator. The codes are designed for replications of two empirical applications in our working paper: the Nyakatoke network and the India microfinance network. Numerical results may differ slightly across computers from those reported in the paper, owing to variations in operating systems.
 
 ### Empirical Applications
 
